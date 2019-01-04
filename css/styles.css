@@ -78,9 +78,6 @@ h1 {
   width: 22%;
   visibility: visible;
 }
-.top-cloud:hover {
-  visibility: hidden;
-}
 
 .bottom-cloud {
   position: absolute;
