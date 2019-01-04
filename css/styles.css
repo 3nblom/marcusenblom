@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h2 {
+  color: #0c907d;
+}
+
+hr {
+  border-color: #ededed;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  padding: 20px;
+}
+
+
+/******************Top navigation part of page************************/
+
+.top-bar {
+  background-color: #f2f7ff;
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  margin: 0;
+}
+
+.nav-bar {
+  margin-right: 40px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  color: #45b29a;
+  margin: 15px 30px 0 0;
+}
+
+.top-bar-p {
+  color: #45b29a;
+  position: absolute;
+  right: 50px;
+  padding: 20px;
+}
+
+/******************1st part of page************************/
+
+.top {
+  background-color: #f2f7ff;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  margin-top: 0;
+  color: #45b29a;
+  margin: 0 auto;
+  font-family: 'Amatic SC', cursive;
+  font-size: 300%;
+}
+
+.header-lower-cases {
+  font-size: 85%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 90px;
+  width: 22%;
+  visibility: visible;
+}
+.top-cloud:hover {
+  visibility: hidden;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  width: 22%;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.name-heading {
+  color: #45b29a;
+  font-size: 75px;
+}
+
+.description {
+  color: #45b29a;
+}
+
+/******************2nd part of page************************/
+
+.middle {
+  width: 75%;
+  margin: 150px auto 0 auto;
+  height: 300px;
+  position: relative;
+}
+
+
+.profile-img {
+  float: left;
+  width: 150px;
+  border-radius: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+
+/******************3rd part of page************************/
+
+.bottom {
+  width: 75%;
+  margin: 100px auto 100px auto;
+  height: 300px;
+  position: relative;
+}
+
+.bottom-row {
+  margin: 75px auto 0 auto;
+}
+
+.computer-img {
+  float: right;
+  width: 150px;
+  border-radius: 200px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+/******************Footer part of page************************/
+
+.footer {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-img {
+  width: 5%;
+  margin: 20px 20px 0 0;
+}
+
+.rights {
+  color: #45b29a;
+}
