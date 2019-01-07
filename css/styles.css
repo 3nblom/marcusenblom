@@ -36,12 +36,13 @@ hr {
   margin: 0;
 }
 
-
+/**** Nav-bar ****/
 .nav-bar {
   margin-right: 40px;
   margin: 0;
   text-decoration: none;
 }
+
 .nav-bar-link {
   text-decoration: none;
 }
@@ -50,6 +51,10 @@ hr {
 }
 .nav-bar-link:visited {
   color: #45b29a;
+}
+.nav-bar-link:hover {
+  color: #8dd6c9;
+  font-size: 101%;
 }
 
 .nav-bar-a {
@@ -172,19 +177,27 @@ h1 {
 /******************Footer part of page************************/
 
 .footer {
+  background-color: #f2f7ff;
   width: 100%;
-  height: 100px;
+
   position: relative;
   margin: 100px 0 0 0;
 }
 
 .footer-img {
+  text-align: center;
   width: 5%;
-  margin: 20px 20px 0 0;
+  margin: 20px;
+}
+
+.footer-img:hover {
+  width: 5.3%;
 }
 
 .rights {
+  font-size: 0.85rem;
   color: #45b29a;
+  margin: 50px 0 0 0;
 }
 
 .butn {
@@ -203,8 +216,9 @@ h1 {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 
-  position: absolute;
+  position: fixed;
   right: 10%;
+  bottom: 10px;
 
 
 }
