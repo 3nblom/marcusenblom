@@ -112,7 +112,7 @@ h1 {
 /******************2nd part of page************************/
 
 .middle {
-  width: 75%;
+  width: 50%;
   margin: 150px auto 0 auto;
   height: 300px;
   position: relative;
@@ -131,21 +131,33 @@ h1 {
 /******************3rd part of page************************/
 
 .bottom {
-  width: 75%;
+  width: 50%;
   margin: 100px auto 100px auto;
-  height: 300px;
+  height: 50%;
   position: relative;
 }
 
-.bottom-row {
-  margin: 75px auto 0 auto;
+.bottom-row1 {
+  margin: 0 auto 0 auto;
 }
 
-.computer-img {
+.bottom-row2 {
+  margin: 100px auto 100px auto;
+}
+
+.computer-img1 {
   float: right;
   width: 150px;
   border-radius: 200px;
   margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.computer-img2 {
+  float: left;
+  width: 150px;
+  border-radius: 200px;
+  margin-right: 100px;
   margin-bottom: 50px;
 }
 
